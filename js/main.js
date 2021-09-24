@@ -1,5 +1,5 @@
-let bigText = document.getElementById("bigText").innerHTML;
-let smallText = document.getElementById("smallText").innerHTML;
+let bigText = document.getElementById("bigText");
+let smallText = document.getElementById("smallText");
 
 let page = 1;
 
@@ -48,27 +48,27 @@ function nextPage() {
 //function that changes elements on page when going through
 function changePage() {
   if (page == 1) {
-    document.getElementById("bigText").innerHTML = "I can read your mind.";
-    document.getElementById("smallText").innerHTML = "MindReader";
+    bigText.innerHTML = "I can read your mind.";
+    smallText.innerHTML = "MindReader";
   } else if (page == 2) {
-    document.getElementById("bigText").innerHTML = "Pick a number 1-99";
-    document.getElementById("smallText").innerHTML = "When you have your number click next";
+    bigText.innerHTML = "Pick a number 1-99";
+    smallText.innerHTML = "When you have your number click next";
   } else if (page == 3) {
-    document.getElementById("bigText").innerHTML =
+    bigText.innerHTML =
       "Add both digits together to get a new number";
-    document.getElementById("smallText").innerHTML =
+    smallText.innerHTML =
       "Ex 14 is 1 + 4 = 5 Click Next to Proceed";
   } else if (page == 4) {
-    document.getElementById("bigText").innerHTML =
+    bigText.innerHTML =
       "Subtract your new number from the original number.";
-    document.getElementById("smallText").innerHTML = "Click Next to continue";
+    smallText.innerHTML = "Click Next to continue";
   } else if (page == 5) {
-    document.getElementById("bigText").innerHTML = shuffle();
-    document.getElementById("smallText").innerHTML =
+    bigText.innerHTML = shuffle();
+    smallText.innerHTML =
       "Find your number.  Note the symbol beside your number.";
   } else if (page == 6) {
-    document.getElementById("bigText").innerHTML =
+    bigText.innerHTML =
       "Your symbol is...<br>" + winner;
-    document.getElementById("smallText").innerHTML = "";
+    smallText.innerHTML = "";
   }
 }

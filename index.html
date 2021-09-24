@@ -15,21 +15,24 @@
 <body onload="changePage()">
   <div class="bg pt-10">
     <div class="container overflow-auto text-center">
-      <h2 id="bigText" class="text-center pt-5"></h2>
-    </div>
-    <div class="containter justify-content-center">
-      <div class="row justify-content-center">
-        <div id="actionButton" onclick="nextPage()" class="btn btn-secondary">Next</div>
-        <p id="smallText" class="text-center">
-
-        </p>
+      <div class="row">
+        <div class="clearfix">
+          <h2 id="bigText" class="text-center pt-5"></h2>
+        </div>
+        <div class="containter justify-content-center">
+          <div class="row justify-content-center">
+            <div id="actionButton" onclick="nextPage()" class="btn btn-secondary justify-content-center">Next</div>
+            <p id="smallText" class="text-center"></p>
+          </div>
+        </div>
+        <div class="containter justify-content-center">
+          <div class="row justify-content-center">
+            <div id="resetButton" onclick="returnPage()" class="btn btn-secondary justify-content-center">Restart</div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="containter justify-content-center">
-      <div class="row justify-content-center">
-        <div id="resetButton" onclick="returnPage()" class="btn btn-secondary">Restart</div>
-      </div>
-    </div>
+  </div>
   </div>
 
   <!-- Optional JavaScript; choose one of the two! -->
