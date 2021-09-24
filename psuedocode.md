@@ -41,15 +41,15 @@ Responsiveness
 Requirements
 To complete the assignment, you must complete the following:
 
-1. Pseudocode the problem in its entirety before you start coding
+1. Pseudocode the problem in its entirety before you start coding - check
 2. Use JavaScript to successfully show the transition from one view to the next view
-Successfully show state management for each step of the single page app ("view" 1, 2, 3, ...)
-3. Only create a single index.html
-4. No need to refresh the page (manually or using JS)
-5. Update state using a variable that tells the computer what 'view' it is
-6. Use functions to move forward a view, backward, reset to the first view, and display the correct view on load / after every state change
-7. Use Icons of your choice, we recommend either Bootstrap Icons (best) or Font Awesome (second best) but feel free to find your own
-8. All multiples of 9 should be the same symbol (this is important for the math gimmick to work)
+Successfully show state management for each step of the single page app ("view" 1, 2, 3, ...) - check
+3. Only create a single index.html - check
+4. No need to refresh the page (manually or using JS) - check
+5. Update state using a variable that tells the computer what 'view' it is - check
+6. Use functions to move forward a view, backward, reset to the first view, and display the correct view on load / after every state change - check
+7. Use Icons of your choice, we recommend either Bootstrap Icons (best) or Font Awesome (second best) but feel free to find your own - fail
+8. All multiples of 9 should be the same symbol (this is important for the math gimmick to work) - check
 
 ---
 
